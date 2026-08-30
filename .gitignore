@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Fine-tuned model checkpoints (large, regenerable -- don't commit)
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Hugging Face model cache (if ever created locally)
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
